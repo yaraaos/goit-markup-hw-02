@@ -20,7 +20,8 @@ a {
     color: inherit;
     font-style: normal;
 }
-a:hover {
+a:hover,
+a:focus {
     color: #404bbf;
 }
 
@@ -33,7 +34,7 @@ a:hover {
 /* Button */
 .btn:hover,
 .btn:focus {
-    color:#404bbf;
+    background-color:#404bbf;
 }
 button {
     font-family: inherit;
@@ -70,14 +71,12 @@ button {
 
 
 /* Big Box */
-.box {
+    .box-sentence {
     background-color: #2e2f42;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
-    letter-spacing: 0.02em
-}
-.box-sentence {
+    letter-spacing: 0.02em;
     font-weight: 700;
     color: #fff;
 }
@@ -107,6 +106,9 @@ button {
 }
 .team-box {
     background-color: #f4f4fd;
+}
+.third-list {
+    background-color: #fff;
 }
 
 /* Footer */
