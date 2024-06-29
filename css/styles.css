@@ -20,6 +20,9 @@ a {
     color: inherit;
     font-style: normal;
 }
+a:hover {
+    color: #404bbf;
+}
 
 /* Mail & Phone*/
 .info:hover,
